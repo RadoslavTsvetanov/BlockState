@@ -17,8 +17,10 @@ It's important to note that with BlockEstate's functionality, owning the entire 
 ## Tax Automation
 A completely new dimension is introduced with the possibility of automating tax processes. Through the use of smart contracts, the corresponding tax is automatically deducted with each token transaction, providing transparency and security for all participants in the transaction.
 
-## Conclusion
-In conclusion, BlockEstate aims to facilitate the process of investing in real estate by making it more accessible and efficient through representing properties as tokens on the blockchain network. This approach changes traditional methods of investing and ownership, offering new opportunities for users to participate in the real estate market.
+## Different Types of Properties
+There could be two types of real estate properties available - partial and whole. Whole properties would be represented by tokens where purchasing the token grants full ownership of the property. Partial properties, on the other hand, could still be beneficial in cases where a business is not financially sound. In such cases, the business could mortgage the property it operates in, allowing people to buy shares, and the business would receive the funds. This approach could eliminate the need for traditional bank mortgages, allowing direct interaction between individuals.
+
+
 
 ## And more
 The basic idea of the project is to make real estate (and other areas where possible) more accesible as an investment, verifying ownership easier, *trading* them eaier, taking care of some of the annoying legal things that could be automated and reducing mediaries. Since the fundamental is just that,  the legal details can be fit into the system *** see concerns for some questions *** 
@@ -31,10 +33,10 @@ The basic idea of the project is to make real estate (and other areas where poss
  - ### Well this is the legal part which should be regulated by the government but a way is to introduce some kind of algorithm to determine who is the physical owner of the property (for example having 51%) and the other 49 is just an asset which you could buy later, how would this relate to a real world example but making it better - lets say you need to buy new apartment but you dont have enough so you start going through your family contacts nut you dont have luck, but then you remember you have a friend who is trying to find a property to buy but for pure capital gain so you ask him and he accepts nut comes a problem: how can he trust you that you will give him his paart after five years, well thats why web3 is called zero trust - now he can become an investor in the property  
 
 
- - ### Different Types of Properties
-  There could be two types of real estate properties available - partial and whole. Whole properties would be represented by tokens where purchasing the token grants full ownership of the property. Partial properties, on the other hand, could still be beneficial in cases where a business is not financially sound. In such cases, the business could mortgage the property it operates in, allowing people to buy shares, and the business would receive the funds. This approach could eliminate the need for traditional bank mortgages, allowing direct interaction between individuals.
 
 
+## Conclusion
+In conclusion, BlockEstate aims to facilitate the process of investing in real estate by making it more accessible and efficient through representing properties as tokens on the blockchain network. This approach changes traditional methods of investing and ownership, offering new opportunities for users to participate in the real estate market.
 
 
 
