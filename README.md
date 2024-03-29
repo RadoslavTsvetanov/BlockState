@@ -1,4 +1,4 @@
-6# BlockEstate: Revolutionizing Real Estate Investment with Blockchain Technology
+# BlockEstate: Revolutionizing Real Estate Investment with Blockchain Technology
 
 BlockEstate, the real estate registry, offers an innovative and functional platform that utilizes blockchain technology to make real estate investments easier, more accessible, and more secure. The main goal of the project is to change the way people invest in real estate and how properties are transferred between owners.
 
