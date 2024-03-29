@@ -1,4 +1,4 @@
-# BlockEstate: Revolutionizing Real Estate Investment with Blockchain Technology
+6# BlockEstate: Revolutionizing Real Estate Investment with Blockchain Technology
 
 BlockEstate, the real estate registry, offers an innovative and functional platform that utilizes blockchain technology to make real estate investments easier, more accessible, and more secure. The main goal of the project is to change the way people invest in real estate and how properties are transferred between owners.
 
@@ -6,10 +6,10 @@ BlockEstate, the real estate registry, offers an innovative and functional platf
 With its functionality, BlockEstate allows real estate properties to be represented as tokens on the blockchain network. This creates an opportunity for users to own a portion of the property by purchasing or owning tokens representing a share of the property. For example, if a property is divided into 100 tokens, one person can purchase 10 tokens and thus own 10% of the property. This model makes real estate investments more accessible to a larger portion of society.
 
 ### How It Works
-When a property is represented by tokens, users can buy tokens to acquire a percentage of the property. For instance, to own the property outright, one would need to possess 100 tokens. Business logic, implemented by smart contracts, ensures smooth transactions. For instance, taxes can be automatically deducted from the received funds, streamlining the process.
+When a property is represented by tokens, users can buy tokens to acquire a percentage of the property. For instance, to own the property outright, one would need to possess 100 tokens. Business logic, implemented by smart contracts, ensures smooth transactions.
 
 ## Transfer of Ownership
-With property ownership recorded on the blockchain network, the process of transferring properties becomes easier and faster. Token owners can easily transfer their shares of the property by selling or transferring their tokens through smart contracts, preventing unnecessary bureaucratic procedures and expenses.
+With property ownership recorded on the blockchain network, the process of transferring properties becomes easier and faster. Token owners can easily transfer their shares of the property by selling or transferring their tokens through smart contracts, preventing unnecessary bureaucratic procedures and expenses while also decreasing the meed of doing legal work since law logic that is easier, mundane and repetitive can be imbued into the smart contract logic.
 
 ## Fractional Ownership
 It's important to note that with BlockEstate's functionality, owning the entire property is no longer necessary to participate in its ownership. This opens doors for new opportunities for co-ownership of properties and simplifies the sales and transfer process. Many individuals nowadays invest in real estate not just for personal use but also as a means of wealth preservation. However, real estate ownership is often monopolized by a small percentage of the population, leaving limited opportunities for others. With fractional ownership facilitated by BlockEstate, individuals can pool resources to collectively invest in properties, reducing the reliance on intermediaries and increasing transparency and security within prearranged groups, while also leaving some of the legal things to the smart contract instead for paying a lawyer ( you will probably still need one just not as much).
@@ -38,7 +38,11 @@ The basic idea of the project is to make real estate (and other areas where poss
 ## Conclusion
 In conclusion, BlockEstate aims to facilitate the process of investing in real estate by making it more accessible and efficient through representing properties as tokens on the blockchain network. This approach changes traditional methods of investing and ownership, offering new opportunities for users to participate in the real estate market.
 
+## Features that can be implemented easily using this system 
 
+ - mortgage using 2/3 multisig and timelocking 
+
+ - of rent is paid through the system as well, the sums will be transferred to all owners with named o their corresponding percentage 
 
 
 
