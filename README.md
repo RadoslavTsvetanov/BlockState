@@ -1,26 +1,25 @@
 # BlockEstate: Revolutionizing Real Estate Investment with Blockchain Technology
 
-BlockEstate, the real estate registry, offers an innovative and functional platform that utilizes blockchain technology to make real estate investments easier, more accessible, and more secure. The main goal of the project is to change the way people invest in real estate and how properties are transferred between owners.
+BlockEstate offers an innovative and functional platform that utilizes blockchain technology to make real estate investments easier, more accessible, and more secure. The main goal of the project is to change the way people invest in real estate and how properties are transferred between owners.
 
-## Functionality
-With its functionality, BlockEstate allows real estate properties to be represented as tokens on the blockchain network. This creates an opportunity for users to own a portion of the property by purchasing or owning tokens representing a share of the property. For example, if a property is divided into 100 tokens, one person can purchase 10 tokens and thus own 10% of the property. This model makes real estate investments more accessible to a larger portion of society.
+## How it works 
 
-### How It Works
-When a property is represented by tokens, users can buy tokens to acquire a percentage of the property. For instance, to own the property outright, one would need to possess 100 tokens. Business logic, implemented by smart contracts, ensures smooth transactions.
+Properties are represented as tokens which equals a percentage in property ownership following the ERC20 standard.
 
-## Transfer of Ownership
-With property ownership recorded on the blockchain network, the process of transferring properties becomes easier and faster. Token owners can easily transfer their shares of the property by selling or transferring their tokens through smart contracts, preventing unnecessary bureaucratic procedures and expenses while also decreasing the meed of doing legal work since law logic that is easier, mundane and repetitive can be imbued into the smart contract logic.
+## Benfits of the system
 
-## Fractional Ownership
-It's important to note that with BlockEstate's functionality, owning the entire property is no longer necessary to participate in its ownership. This opens doors for new opportunities for co-ownership of properties and simplifies the sales and transfer process. Many individuals nowadays invest in real estate not just for personal use but also as a means of wealth preservation. However, real estate ownership is often monopolized by a small percentage of the population, leaving limited opportunities for others. With fractional ownership facilitated by BlockEstate, individuals can pool resources to collectively invest in properties, reducing the reliance on intermediaries and increasing transparency and security within prearranged groups, while also leaving some of the legal things to the smart contract instead for paying a lawyer ( you will probably still need one just not as much).
+With the introduction of web3 tech comes a lot of benefits:
+ - legal automation -> legal and business logic can be implmented (due to the nature of solidity) and imbued inside the smart contracts logic, for example paying taxes on collectted rent or trnasferring ownership to successors when someone dies  
+ - zero trust -> blockends are deployed once and stay, so evryone can check the source code to see if something is off and if one redeploys the blockend its easy to spot unlike traditional backends where its almost impossible
+ - security -> if blockchain is introduced it makes it hard for people with mallicious people trying to exploit the system do something since because of first there is a ledger system
+ - ease of use -> since most of th things will be taken care of the smart contract verifying and transfering ownership is much easier ( if not eliminating documents, atleast reducing the amount so checking the owner of the property and a renter whe nneeding a sticker for blue zone will be automated )
+ - fractional ownership -> the use of tokens enables fractional ownership ( if one is not possible all tokens are just in the possesion of one address/person ) which could enable people to share various things in real estate, for example when one person wants to buy a property which he will use as rental property or he just wants to participate in the real setate bussiness but doesnt have enough money today he will start asking relatives or friends for help but there is one probelm - trust and thats where tokens help since everything is zero trust instead you can directly become an owner of part of the tokens associated with a part of this property with the person who have asked you for help while granting a layer of protection in which since you own the tokens you could always sell them if you want, another use case where this could be useful is rent, if a group of people again buy x, y, z shares of property when its given for rent, rent could be distributed acording to each person's share
+ - things like mortage can be easily implemented using 2/3 multisig and timelock
 
-## Tax Automation
-A completely new dimension is introduced with the possibility of automating tax processes. Through the use of smart contracts, the corresponding tax is automatically deducted with each token transaction, providing transparency and security for all participants in the transaction.
+## Disclaimer
 
-## Different Types of Properties
-There could be two types of real estate properties available - partial and whole. Whole properties would be represented by tokens where purchasing the token grants full ownership of the property. Partial properties, on the other hand, could still be beneficial in cases where a business is not financially sound. In such cases, the business could mortgage the property it operates in, allowing people to buy shares, and the business would receive the funds. This approach could eliminate the need for traditional bank mortgages, allowing direct interaction between individuals.
-
-
+Since the core of the project is the tokenization if properties and leveriging the other benefits iof web3 tech ( mentioned above ) the system can be fit into systems with little modification, for example if this is not used by the government it could be used by different real third parties using only part of the system: 
+ - first example a third party needing capital for buying or building properties will get funding from the tokenization and then when the third party gives them for rent, its distributed across the investors and the third party getting a percentage from each transaction and the third party takes care of all the rest of legal work ( to be precise a real world example will be a third party builder needing funcding for a new project where all the apartments will be for rent will collect funding from the tokenization and each token holder will be paid percentage of the rent where the third party gets a percent from each transaction)
 
 ## And more
 The basic idea of the project is to make real estate (and other areas where possible) more accesible as an investment, verifying ownership easier, *trading* them eaier, taking care of some of the annoying legal things that could be automated and reducing mediaries. Since the fundamental is just that,  the legal details can be fit into the system *** see concerns for some questions *** 
