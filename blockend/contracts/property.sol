@@ -1,6 +1,7 @@
-// SPDX-License-Identifier: GPL-3.0
+ // SPDX-License-Identifier: GPL-3.0
 pragma solidity ^0.8.0;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "hardhat/console.sol";
 uint constant PERCENTAGE_TO_WEI = 1000000000000000000; 
 contract LawsHandler {
     address private owner;
@@ -70,7 +71,7 @@ contract PropertyToken is ERC20 {
 contract RentalProperty is PropertyToken {
     // Additional properties for rent functionality
     uint[] public whenPaidRent;
-    uint public requiredRentAmount = 10000 * 10**9; // about $300 or 10000 gwei
+    uint public requiredRentAmount = 500 ; // about $300 or 10000 gwei
     mapping(address => uint256) public investorLastWithdrawal;
     mapping(uint => uint) public investorsWithdrawnCount;
     uint public totalMintedTokens = 100;
@@ -91,7 +92,7 @@ contract RentalProperty is PropertyToken {
 
     function withdrawShareOfRent() public payable {
         require(super.balanceOf(msg.sender) != 0, "Sender is not an investor");
-        uint portionOfRentToReceive = (requiredRentAmount / totalMintedTokens) * super.balanceOf(msg.sender);
+        uint portionOfRentToReceive = (requiredRentAmount / totalMintedTokens)  ;
         uint lastWithdrawal = investorLastWithdrawal[msg.sender];
         
         // Update withdrawal count for the current investor
@@ -104,6 +105,7 @@ contract RentalProperty is PropertyToken {
 
         // Distribute rent and update last withdrawal time
         payable(msg.sender).transfer(portionOfRentToReceive);
+        console.log(portionOfRentToReceive);
         investorLastWithdrawal[msg.sender] = block.timestamp;
 
         // Check if all investors have withdrawn rent up to the oldest withdrawal time
@@ -119,7 +121,13 @@ contract RentalProperty is PropertyToken {
 
     function buyPropertyShares(uint numberOfShares) public {
         super._transfer(owner,msg.sender, (numberOfShares * PERCENTAGE_TO_WEI));
+    } 
+
+    function getBalance(address _address) public view returns (uint256) {
+        return _address.balance;
     }
+
+
 }
 
 contract OwnedProperty is PropertyToken {
